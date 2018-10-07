@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git@github.com-kingno21:kingno21/household-account-book.git"
   },
-  "keywords": ["household account book", "react"],
+  "keywords": [
+    "household account book",
+    "react"
+  ],
   "author": "KingNo21",
   "license": "MIT",
   "devDependencies": {
@@ -35,6 +38,7 @@
   },
   "dependencies": {
     "react": "^16.5.2",
-    "react-jss": "^8.6.1"
+    "react-jss": "^8.6.1",
+    "recompose": "^0.30.0"
   }
 }

@@ -1,26 +1,12 @@
-import * as React from 'react';
 import ReactDOM from 'react-dom';
+import * as React from 'react';
 import injectSheet from 'react-jss';
 
-import Item from './parts/atoms/item';
-
-const styles = {
-  container: {
-    height: '100%',
-    width: '100%',
-  },
-};
+import Manager from './parts/templates/manager';
 
 class App extends React.Component {
   render() {
-    const {classes} = this.props;
-    return (
-      <div className={classes.container}>
-        <Item />
-      </div>
-    );
+    return <Manager />;
   }
 }
-
-const CSSApp = injectSheet(styles)(App);
-ReactDOM.render(<CSSApp />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
