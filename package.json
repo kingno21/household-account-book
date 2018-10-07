@@ -1,0 +1,40 @@
+{
+  "name": "household-account-book",
+  "version": "1.0.0",
+  "description": "web household account book",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-kingno21:kingno21/household-account-book.git"
+  },
+  "keywords": ["household account book", "react"],
+  "author": "KingNo21",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "8",
+    "browserify": "^16.2.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-react": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-using": "^0.1.1",
+    "gulp-watch": "^5.0.1",
+    "gulp-webserver": "^0.9.1",
+    "react-dom": "^16.5.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-jss": "^8.6.1"
+  }
+}
